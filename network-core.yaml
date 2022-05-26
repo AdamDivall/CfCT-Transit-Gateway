@@ -187,7 +187,7 @@ Parameters:
   pS3SourceBucketLambdaLayer:
     Type: String
     Description: "The S3 Bucket where the Lambda Layer is located"
-    Default: "security-fixes-eu-west-2"
+    Default: ""
 Resources:
 ############# VPC's, Subnets, Route Tables, Route Table Associations & Routes #############
   rInspectionVpc:

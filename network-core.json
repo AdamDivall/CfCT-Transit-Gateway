@@ -1,0 +1,98 @@
+[
+  {
+    "ParameterKey": "OrganizationId",
+    "ParameterValue": ""
+  },
+  {
+    "ParameterKey": "pManagementAccountId",
+    "ParameterValue": ""
+  },
+  {
+    "ParameterKey": "pInspectionVpcCidr",
+    "ParameterValue": "100.64.0.0/16"
+  },  
+  {
+    "ParameterKey": "pInspectionVpcFwSubnetACidr",
+    "ParameterValue": "100.64.0.0/28"
+  },
+  {
+    "ParameterKey": "pInspectionVpcFwSubnetBCidr",
+    "ParameterValue": "100.64.0.16/28"
+  },
+  {
+    "ParameterKey": "pInspectionVpcFwSubnetCCidr",
+    "ParameterValue": "100.64.0.32/28"
+  },
+  {
+    "ParameterKey": "pInspectionVpcTgwSubnetACidr",
+    "ParameterValue": "100.64.0.48/28"
+  },  
+  {
+    "ParameterKey": "pInspectionVpcTgwSubnetBCidr",
+    "ParameterValue": "100.64.0.64/28"
+  },
+  {
+    "ParameterKey": "pInspectionVpcTgwSubnetCCidr",
+    "ParameterValue": "100.64.0.80/28"
+  },
+  {
+    "ParameterKey": "pEgressVpcCidr",
+    "ParameterValue": "10.10.0.0/16"
+  },
+  {
+    "ParameterKey": "pEgressVpcFwSubnetACidr",
+    "ParameterValue": "10.10.0.0/28"
+  },
+  {
+    "ParameterKey": "pEgressVpcFwSubnetBCidr",
+    "ParameterValue": "10.10.0.16/28"
+  },  
+  {
+    "ParameterKey": "pEgressVpcFwSubnetCCidr",
+    "ParameterValue": "10.10.0.32/28"
+  },
+  {
+    "ParameterKey": "pEgressVpcTgwSubnetACidr",
+    "ParameterValue": "10.10.0.48/28"
+  },
+  {
+    "ParameterKey": "pEgressVpcTgwSubnetBCidr",
+    "ParameterValue": "10.10.0.64/28"
+  },
+  {
+    "ParameterKey": "pEgressVpcTgwSubnetCCidr",
+    "ParameterValue": "10.10.0.80/28"
+  },  
+  {
+    "ParameterKey": "pEgressVpcPublicSubnetACidr",
+    "ParameterValue": "10.10.1.0/24"
+  },
+  {
+    "ParameterKey": "pEgressVpcPublicSubnetBCidr",
+    "ParameterValue": "10.10.2.0/24"
+  },
+  {
+    "ParameterKey": "pEgressVpcPublicSubnetCCidr",
+    "ParameterValue": "10.10.3.0/24"
+  },
+  {
+    "ParameterKey": "pTgwAwsVpcNetworkSupernet",
+    "ParameterValue": "10.0.0.0/8"
+  },  
+  {
+    "ParameterKey": "pCloudWatchLogsRetentionPeriodLambda",
+    "ParameterValue": "7"
+  },
+  {
+    "ParameterKey": "pCloudWatchLogsRetentionPeriodNetworkFw",
+    "ParameterValue": "3"
+  },  
+  {
+    "ParameterKey": "pS3SourceBucketLambdaLayer",
+    "ParameterValue": ""
+  },
+  {
+    "ParameterKey": "pEnvironmentName",
+    "ParameterValue": "Production"
+  }
+]
