@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: "2010-09-09"
-Description: "Deploy Transit Gateway in Network Account with Inspection VPC"
+Description: "Deploy Transit Gateway in a Network Account with an Inspection VPC and Egress VPC using Network Firewall"
 Metadata:
   AWS::CloudFormation::Interface:
     ParameterGroups:
