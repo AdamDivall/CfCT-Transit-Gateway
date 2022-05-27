@@ -4,7 +4,7 @@ The CloudFormation Template and Lambda Function(s) have been created based on th
 
 ## Architecture Overview
 
-![alt](./diagrams/TGW.png)
+![alt](./diagrams/tgw.png)
 
 ## Pre-Requisites and Installation
 
